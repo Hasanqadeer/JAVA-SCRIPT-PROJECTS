@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(89, 147, 197);
+}
+.container{
+    background-color: white;
+    width: 80%;
+    min-height: 100vh;
+    margin: 100px auto;
+    margin-bottom: 40px;
+}
+h1{
+    text-align: center;
+    color: rgb(89, 147, 197);
+}
+input{
+    width: 40%;
+    margin: 20px 20px;
+    height: 40px;  
+    
+}
+.paras{
+    background-color: rgb(141, 169, 194);
+    padding: 20px;
+    margin: 20px 20px;
+}
+button{
+    color: white;
+    background-color: rgb(141, 169, 194);
+    width: 15%;
+    height: 40px;
+
+    font-size: 25px;
+    margin-top: 5px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: rgb(89, 147, 197);
+    transition: 0.5s;
+}
+@media(max-width: 850px){
+    input{
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+        
+
+    }
+    button{
+        display: block;
+      margin: 10px auto;
+      width: 80%;
+
+    }
+    .container{
+       
+        padding-bottom: 50px ;
+       
+    }
+    .paras{
+        margin-bottom: 20px;
+    }
+    h1{
+        font-size: 15px;
+    }
